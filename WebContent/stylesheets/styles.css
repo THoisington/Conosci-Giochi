@@ -1,0 +1,24 @@
+#fallout{
+	background-image: url(images/fallout.jpg);
+	background-size: 100% 100%;
+}
+
+#zelda{
+	background-image: url("http://wallpoper.com/images/00/30/19/16/link-hyrule_00301916.jpg");
+	background-size: 100% 100%;
+}
+
+.welcome{
+	display:block;
+	width: 20%;
+	margin: 150px auto 0 auto;
+	background-color: rgba(0,0,0,0.4);
+}
+
+.welcome-description{
+	color: white;
+}
+
+.site-title{
+	color: white;
+}

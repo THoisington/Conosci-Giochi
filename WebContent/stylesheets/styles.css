@@ -1,24 +1,44 @@
 #fallout{
-	background-image: url(images/fallout.jpg);
+	background-image: url('../images/fallout.jpg');
 	background-size: 100% 100%;
 }
 
 #zelda{
-	background-image: url("http://wallpoper.com/images/00/30/19/16/link-hyrule_00301916.jpg");
+	background-image: url("http://i.imgur.com/JZQdnNc.jpg");
 	background-size: 100% 100%;
 }
 
 .welcome{
 	display:block;
-	width: 20%;
-	margin: 150px auto 0 auto;
-	background-color: rgba(0,0,0,0.4);
+	width: 30%;
+	margin: 0 auto;
+	
+/* 	-webkit-border-radius: 35px; */
+/* 	-moz-border-radius: 35px; */
+/* 	border-radius: 35px; */
+/* 	border:0px solid #FFFFFF; */
+/* 	background:rgba(25,25,25,0.5); */
 }
 
 .welcome-description{
 	color: white;
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	font-style: italic;
+	font-size: 13px;
+	padding-bottom: 100px;
 }
 
 .site-title{
 	color: white;
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 54px;
+	padding-top: 10px;
+}
+
+#hidden{
+	display:none;
 }

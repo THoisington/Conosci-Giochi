@@ -58,18 +58,23 @@ $(document).ready(function() {
 
 var currentSlide = $("#fallout");
 
-while(!($('#second').hasClass("active"))){
-//while($('body').hasClass("fp-viewing-firstSlide-0")||$('body').hasClass("fp-viewing-firstSlide-1")||$('body').hasClass("fp-viewing-firstSlide-2")||$('body').hasClass("fp-viewing-firstSlide-3")){
+//while(!($('#second').hasClass("active"))){
+
+	//while($('body').hasClass("fp-viewing-firstSlide-0")||$('body').hasClass("fp-viewing-firstSlide-1")||$('body').hasClass("fp-viewing-firstSlide-2")||$('body').hasClass("fp-viewing-firstSlide-3")){
 //	if($("#catherine").hasClass("active")){
 //		break;
 //	}
-	if(currentSlide.attr("id")=='catherine'){
-		setTimeout(function(){ $.fn.fullpage.moveSlideRight();}, 3000);
-		setTimeout(function(){ $.fn.fullpage.moveTo('firstSlide', 1);}, 3000);
-	}
-	else{
-		setTimeout(function(){ $.fn.fullpage.moveSlideRight();}, 3000);
-		currentSlide = currentSlide.next();
-	}
 	
-}
+//	if(currentSlide.attr("id")=='catherine'){
+//		setTimeout(function(){ $.fn.fullpage.moveSlideRight();}, 3000);
+//		setTimeout(function(){ $.fn.fullpage.moveTo('firstSlide', 1);}, 3000);
+//	}
+//	else{
+//		setTimeout(function(){ $.fn.fullpage.moveSlideRight();}, 3000);
+//		currentSlide = currentSlide.next();
+//	}
+//	
+//}
+
+
+

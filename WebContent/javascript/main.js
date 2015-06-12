@@ -76,5 +76,20 @@ var currentSlide = $("#fallout");
 //	
 //}
 
+$("#lNext").click(function(){
+		$.post( "libpages", { direction: "next", source: "lib" } );
+	});
 
+$("#lPrev").click(function(){
+	$.post( "libpages", { direction: "prev", source: "lib" } );
+});
+
+//$("#aNext").click(function(){
+//	$.post( "libpages", { direction: "next", source: "add" } );
+//	location.reload(true);
+//});
+//
+//$("#aPrev").click(function(){
+//	$.post( "libpages", { direction: "prev", source: "add" } );
+//});
 

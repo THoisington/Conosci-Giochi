@@ -8,9 +8,13 @@
 	background-size: 100% 100%;
 }
 
+#second{
+	background-image: url("http://i.imgur.com/04FoKF7.png");
+	background-size: 100% 100%;
+}
+
 .welcome{
 	display:block;
-	width: 30%;
 	margin: 0 auto;
 	
 /* 	-webkit-border-radius: 35px; */
@@ -18,6 +22,11 @@
 /* 	border-radius: 35px; */
 /* 	border:0px solid #FFFFFF; */
 /* 	background:rgba(25,25,25,0.5); */
+}
+
+.welcome img{
+	height: 240px;
+	width: 320px;
 }
 
 .welcome-description{
@@ -41,4 +50,77 @@
 
 #hidden{
 	display:none;
+}
+
+.marginTop100{
+	margin-top: 100px;
+}
+
+div.row:nth-child(2){
+	padding-bottom: 10px;
+}
+
+/* This is called laziness */
+div.row:nth-child(3){
+	padding-bottom: 10px;
+}
+
+.top-bar{
+	height: 50px;
+	background-color: black;
+}
+
+.filter-bar{
+	background-color: #2e3c4b;
+}
+
+.centered{
+	text-align: center;
+}
+
+.full{
+	width: 100%
+}
+
+.vert{
+  height: 50px;
+  line-height: 50px; /* <-- this is what you must define */
+  vertical-align: middle;
+  color: white;
+}
+
+.navLogo{
+	height: 50px;
+}
+
+.filterText{
+	color: white;
+	font-size: 8px;
+	text-align: left;
+}
+
+body.library{
+	background: url(../images/lb.png) top repeat-x #14181c
+}
+
+.libHead{
+	padding-top:50px;
+	color: white;
+}
+
+.gameRow{
+	padding: 25px 0px;
+}
+
+html, body {
+    overflow-y: visible !important;
+}
+
+h3.title{
+	color: white;
+	margin-top: 0px;
+}
+
+.gameThumb{
+	height: 80px;
 }

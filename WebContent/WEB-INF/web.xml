@@ -12,10 +12,55 @@
   
   <servlet>
         <servlet-name>login</servlet-name>
-        <servlet-class>conogio.Login</servlet-class>
+        <servlet-class>conogio.model.LoginServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>login</servlet-name>
         <url-pattern>/home</url-pattern>
     </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>register</servlet-name>
+        <servlet-class>conogio.model.RegistrationServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>register</servlet-name>
+        <url-pattern>/register</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>recc</servlet-name>
+        <servlet-class>conogio.utils.RecommenderServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>recc</servlet-name>
+        <url-pattern>/recc</url-pattern>
+    </servlet-mapping>
+    
+      	<servlet>
+  			<servlet-name>addtouserlib</servlet-name>            
+  			<servlet-class>conogio.utils.addToUserLib</servlet-class>
+  		</servlet>
+  		<servlet-mapping>
+  			<servlet-name>addtouserlib</servlet-name>
+  			<url-pattern>/addtouserlib</url-pattern>
+  		</servlet-mapping>
+  		
+  	<servlet>
+  			<servlet-name>libpages</servlet-name>            
+  			<servlet-class>conogio.service.AddGamesServlet</servlet-class>
+  	</servlet>
+  	<servlet-mapping>
+  			<servlet-name>libpages</servlet-name>
+  			<url-pattern>/libpages</url-pattern>
+  	</servlet-mapping>
+  	
+  	<servlet>
+  			<servlet-name>library</servlet-name>            
+  			<servlet-class>conogio.service.LibraryServlet</servlet-class>
+  	</servlet>
+  	<servlet-mapping>
+  			<servlet-name>library</servlet-name>
+  			<url-pattern>/library</url-pattern>
+  	</servlet-mapping>
 </web-app>

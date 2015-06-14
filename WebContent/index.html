@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Conosci Giochi</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="stylesheets/jquery.fullPage.css">
+<link rel="stylesheet" type="text/css" href="stylesheets/styles.css">
+</head>
+<body>
+
+	<div id="fullpage">
+    	<div class="section active" id="first">
+    		<div class="slide" id="fallout">
+    			
+    			<div class="welcome">
+    				<img src= "images/logo.png">
+    				<!-- <p class="welcome-description">
+    				You know games. So do we. 
+    				</p> -->
+    			</div>
+    		
+    		</div>
+    		<div class="slide" id="zelda"> Slide 2 </div>
+    		<div class="slide" id="fez"> Slide 3 </div>
+    		<div class="slide" id="catherine"> Slide 4 </div>
+    	</div>
+    	<div class="section bg-success" id="second">
+    		<div class="row">
+			  <div class="col-md-3"></div>
+			  
+			  <div class="col-md-6">
+			  	<form ACTION="home" method="post">
+				  <div class="form-group">
+				    <label for="exampleUserName1">Username</label>
+				    <input type="text" class="form-control" id="exampleUserName1" placeholder="Enter Username" name="userName">
+				  </div>
+				  <div class="form-group">
+				    <label for="exampleInputPassword1">Password</label>
+				    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" name="password">
+				  </div>
+				  <div class="form-group" id="hidden">
+				    <label for="whichButton">Hiding</label>
+				    <input type="text" class="form-control" id="whichButton" placeholder="" name="button">
+				  </div>
+				  <button type="submit" class="btn btn-primary" id="login">Login</button>
+				  <button type="submit" class="btn btn-default btn-sm" id="register">Register</button>
+				</form>
+			  </div>
+			  
+			 
+				
+			  <div class="col-md-3"></div>
+
+			</div>
+    	</div>
+	</div>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script type="text/javascript" src="javascript/jquery.fullPage.js"></script>
+<script type="text/javascript" src="javascript/main.js"></script>
+<script>
+$("#login").click(function(){
+	$("#whichButton").val("login");
+});
+
+$("#register").click(function(){
+	$("#whichButton").val("register");
+});
+</script>
+</body>
+</html>
